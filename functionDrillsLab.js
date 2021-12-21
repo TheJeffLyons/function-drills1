@@ -373,21 +373,18 @@ emailCheck("Jef frey @gmail .com")
 //let goldFrog = 3
 
 const moneyBag = function(gold){
-  let goldFrog = 4
- for(let i = gold; i >= goldFrog; i--){
+  let goldFrog = [3]
+  let answers = []
+
+ for(let i = gold; i - goldFrog; i--){
   
-
-  //if(i >= goldFrog){
- //   console.log(gold - goldFrog)
- // }
-
-//}
 if(gold >= goldFrog){
-  console.log(gold -= goldFrog)
+  answers.push(gold -= goldFrog)
 } 
+
+}console.log(answers.length)
 }
-}
-const totalFrogs = moneyBag
+let totalFrogs = moneyBag
 totalFrogs(20)
 
 ////////////////// PROBLEM 20 ////////////////////

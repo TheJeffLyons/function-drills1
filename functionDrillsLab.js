@@ -118,7 +118,7 @@ const exclaim = function(str) {
 
 // arrow
 // declaration
-expression
+//expression
 
 
 
@@ -133,7 +133,7 @@ const exclaimTwo = str => {
   return str.toUpperCase() + '!!!'
 }
 
-arrow
+//arrow
 // declaration
 // expression
 
@@ -164,7 +164,7 @@ function exclaimFour(str) {
 }
 
 // arrow
-declaration
+//declaration
 // expression
 
 
@@ -306,17 +306,20 @@ let loser = 'Glimmer'
   The function should loop over the array of contestant names. If the loser string appears in the array, splice it out. Return the new contestants array.
 */
 
-function theEliminator(){
-  
-  for(let i = 0; i < contestants.length; i++){
-    if(index.includes(loser)){
-      console.log(`yes`)
+function theEliminator(cont, loser3){
+  let answers2 = [];
+//let names2 = String(contestants)
+
+  for(let i = 0; i < cont.length; i++){
+    if(cont[i] = loser){
+      answers2.splice()
     }
-      
+    return answers2;  
     }
     }
 
-theEliminator()
+let eli2 = theEliminator(contestants)
+console.log(eli2)
 
 
 
@@ -370,8 +373,8 @@ emailCheck("Jef frey @gmail .com")
 //let goldFrog = 3
 
 const moneyBag = function(gold){
-  let goldFrog =3
- // for(let i = gold; i >= goldFrog; i--)
+  let goldFrog = 4
+ for(let i = gold; i >= goldFrog; i--){
   
 
   //if(i >= goldFrog){
@@ -380,7 +383,8 @@ const moneyBag = function(gold){
 
 //}
 if(gold >= goldFrog){
-  console.log(gold - goldFrog)
+  console.log(gold -= goldFrog)
+} 
 }
 }
 const totalFrogs = moneyBag
